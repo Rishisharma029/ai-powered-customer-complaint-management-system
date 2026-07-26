@@ -1,6 +1,7 @@
 # AIVOA – AI-Powered Customer Complaint Management System (Pharma QMS)
 
-[![CI Build](https://img.shields.io/badge/CI%2FCD-Passing-brightgreen?style=for-the-badge&logo=githubactions)](https://github.com/Rishisharma029)
+[![Live Demo](https://img.shields.io/badge/%F0%9F%9A%80%20Live%20Demo-GitHub%20Pages-brightgreen?style=for-the-badge&logo=github)](https://rishisharma029.github.io/ai-powered-customer-complaint-management-system/)
+[![CI Build](https://img.shields.io/badge/CI%2FCD-Passing-brightgreen?style=for-the-badge&logo=githubactions)](https://github.com/Rishisharma029/ai-powered-customer-complaint-management-system/actions)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
@@ -11,6 +12,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 An enterprise-grade, AI-powered Quality Management System (QMS) Customer Complaint module specifically designed for the **Pharmaceutical Manufacturing Industry** (Active Pharmaceutical Ingredients - **API** & Finished Dosage Forms - **FDF**).
+
+> 🌐 **Live Web Application Demo**: [https://rishisharma029.github.io/ai-powered-customer-complaint-management-system/](https://rishisharma029.github.io/ai-powered-customer-complaint-management-system/)
 
 ---
 
@@ -175,7 +178,8 @@ Frontend UI running at: `http://localhost:5173`
 ```
 ├── .github/
 │   └── workflows/
-│       └── ci.yml               # GitHub Actions CI workflow
+│       ├── ci.yml               # GitHub Actions CI build & test workflow
+│       └── deploy-pages.yml     # GitHub Pages deployment workflow
 ├── backend/
 │   ├── app/
 │   │   ├── ai/
